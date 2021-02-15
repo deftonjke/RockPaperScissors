@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 20px 0;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+}
+
+.score {
+    width: 100px;
+    height: 120px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.tablo {
+    background-color: rgb(245, 245, 245);
+    width: 210px;
+    height: 120px;
+    border: 2px dotted grey;
+    margin: 0px 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+main {
+    text-align: center;
+}
+
+.rock {
+    width: 90px;
+    height: 70px;
+    border: 1px solid #999;
+    background-image:
+url(coloring.png);
+    background-size: 230px;
+    background-position: -142px 160px;
+}
+
+.scirios {
+    width: 90px;
+    height: 70px;
+    border: 1px solid #999;
+    background-image:
+url(coloring.png);
+    background-size: 200px;
+    background-position: -200px 327px;
+}
+
+.paper {
+    width: 90px;
+    height: 70px;
+    border: 1px solid #999;
+    background-image:
+url(coloring.png);
+    background-size: 175px;
+    background-position: 156px 68px;
+}
+
+button:active {
+        transform: scale(1.1);
+        border-color: #0a9fb3;
+        box-shadow: 0 0 0.8rem #0a9fb3;
+}
