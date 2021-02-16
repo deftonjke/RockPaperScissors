@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    color: #1b1d1f;
+    color: #232425;
     font-family: 'Kelly Slab', cursive;
     background-color: snow;
 }
@@ -10,6 +10,7 @@ h1 {
     animation: ease-in;
     animation-duration: 1s;
     animation-delay: 1s;
+    color: #232425;
 }
 
 header {
@@ -24,23 +25,23 @@ main {
 }
 
 button {
-    background-color: #90b2d4;
+    background-color: #cfe7ffd6;
     width: 90px;
     height: 70px;
-    border: 1px solid #f8f9fa;
+    border: 1px solid #eaeaea;
     background-image:
 url(coloring.png);
 }
 
 button:hover {
     transform: scale(1.01);
-    border-color: #e6e6e6;
+    border-color: #dddddd;
 }
 
 button:active {
     transform: scale(1.05);
-    border-color: #f3f3f3;
-    box-shadow: 0 0 0.7rem #abb3c0;
+    border-color: #dddddd;
+    box-shadow: 0 0 0.5rem #9e9e9e;
 }
 
 .avatar {
@@ -56,10 +57,10 @@ button:active {
 }
 
 .tablo {
-    background-color: #90b2d4;
+    background-color: #cfe7ffd6;
     width: 280px;
     height: 110px;
-    border: 1px solid #f3f3f3;
+    border: 1px solid #eaeaea;
     margin: 0px 20px;
     padding: 10px;
     box-sizing: border-box;
