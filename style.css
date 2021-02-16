@@ -1,0 +1,82 @@
+body {
+    margin: 0px;
+    color: #1b1d1f;
+    font-family: 'Kelly Slab', cursive;
+    background-color: snow;
+}
+
+h1 {
+    text-align: center;
+    animation: ease-in;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 20px 0;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+button {
+    background-color: #90b2d4;
+    width: 90px;
+    height: 70px;
+    border: 1px solid #f8f9fa;
+    background-image:
+url(coloring.png);
+}
+
+button:hover {
+    transform: scale(1.01);
+    border-color: #e6e6e6;
+}
+
+button:active {
+    transform: scale(1.05);
+    border-color: #f3f3f3;
+    box-shadow: 0 0 0.7rem #abb3c0;
+}
+
+.avatar {
+    width: 135px;
+    height: 135px;
+}
+
+.score {
+    width: 100px;
+    height: 120px;
+    font-size: 3.1rem;
+    text-decoration: underline;
+}
+
+.tablo {
+    background-color: #90b2d4;
+    width: 280px;
+    height: 110px;
+    border: 1px solid #f3f3f3;
+    margin: 0px 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+}
+
+.rock {
+    background-size: 230px;
+    background-position: -142px 160px;
+}
+
+.scirios {
+    background-size: 200px;
+    background-position: -200px 326px;
+}
+
+.paper {
+    background-size: 175px;
+    background-position: 156px 68px;
+}
