@@ -77,12 +77,16 @@ let game = (rounds) => {
             tablo.appendChild(result);
             compScore = 0;
             playerScore = 0;
+	    playerScoreNewDva.appendChild(playerScoreNew);
+            compScoreNewDva.appendChild(compScoreNew);
       } else if (compScore === 5) {
             result.style.cssText = 'color: red';
             result.textContent = `ВЫ ПРОИГРАЛИ!`;
             tablo.appendChild(result);
             compScore = 0;
             playerScore = 0;
+	    playerScoreNewDva.appendChild(playerScoreNew);
+            compScoreNewDva.appendChild(compScoreNew);
       } else {
         result.style.cssText = 'color: #1b1d1f';
         tablo.appendChild(result);
